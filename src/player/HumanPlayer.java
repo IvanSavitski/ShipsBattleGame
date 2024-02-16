@@ -7,27 +7,6 @@ import game.Board;
 import result.Result;
 
 public class HumanPlayer implements Player {
-
-    /*
-    static final int FILED_LENGTH = 16;
-    private String name;
-    private char[][] ownBoard;
-    private char[][] opponentBoard;
-
-    public HumanPlayer(String name) {
-        this.name = name;
-        this.ownBoard = new char[FILED_LENGTH][FILED_LENGTH];
-        this.opponentBoard = new char[FILED_LENGTH][FILED_LENGTH];
-    }
-
-    public void placeShips() {
-        // Ваш код для расстановки кораблей здесь
-    }
-
-    public void makeMove(HumanPlayer opponent) {
-        // Ваш код для совершения хода здесь
-    }*/
-
     private int totalLivesLeft = 17;
     private int id;
     private Board board;
